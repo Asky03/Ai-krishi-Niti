@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AI Krishi Sahayak</title>
-  <link rel="stylesheet" href="../src/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <h1>🌾 AI Krishi Sahayak</h1>
+
     <label for="location">Location:</label>
-    <input type="text" id="location" placeholder="Enter your location">
+    <input type="text" id="location" placeholder="Enter your location" required>
 
     <label for="soil">Soil Type:</label>
     <select id="soil">
@@ -28,10 +29,9 @@
 
     <button id="suggestBtn">Get Crop Suggestion</button>
 
-    <div id="output"></div>
+    <div id="output" class="output-box"></div>
   </div>
 
-  <script src="../src/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
- 
